@@ -28,7 +28,7 @@ h1 {
   color: white;
   line-height: 150%;
   border-radius: 3px 3px 0 0;
- /* box-shadow: 0 2px 5px 1px rgba(0,0,0,0.2); */
+ box-shadow: 0 2px 5px 1px rgba(0,0,0,0.2); 
 	text-align: center;
 }
 p, a {
