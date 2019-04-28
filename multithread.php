@@ -24,7 +24,7 @@ do {
   $i++;
   
   //instantiate class
-  $threads[$i] = new MultiThreadExample($i);
+  $threads[$i] = new MultiThreadTest($i);
   //start thread job
   $threads[$i]->start();
   //join thread
