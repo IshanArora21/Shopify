@@ -12,10 +12,10 @@ class MultiThread extends Thread {
     echo 'thread ' . $this->threadId . "  started.\n";
     
     //sleep for <threadId> seconds
-    sleep($this->threadId)
+    sleep($this->threadId);
     
     //thread ended with timestamp
-    echo 'thread ' . $this->threadId . " ended at " . date('H:i:s') . "\n"
+    echo 'thread ' . $this->threadId . " ended at " . date('H:i:s') . "\n";
   }
 }
  
