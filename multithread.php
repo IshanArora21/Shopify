@@ -18,6 +18,18 @@ class MultiThread extends Thread {
     echo 'thread ' . $this->threadId . " ended at " . date('H:i:s') . "\n";
   }
 }
- 
+ $threads = [];
+$i = 0;
+do {
+  $i++;
+  
+  //instantiate class
+  $threads[$i] = new MultiThreadExample($i);
+  //start thread job
+  $threads[$i]->start();
+  //join thread
+  $threads[$i]->join();
+  //echo thread data
+  echo $threads[$i]->data . "\n";
 
 } 
